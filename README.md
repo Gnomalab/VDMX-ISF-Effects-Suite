@@ -83,7 +83,7 @@ He dividido la suite en estas categorías principales para que te sea fácil nav
 
 Estos shaders son gratuitos y de código abierto. Si te resultan útiles en tu trabajo o simplemente quieres apoyar el desarrollo de nuevas herramientas, considera invitarme a una birra:
 
-🔗 **[Gumroad - Aporta lo que quieras](https://gnomalab.gumroad.com/)** | **Ko-fi** | **PayPal**
+🔗 **[Gumroad - Aporta lo que quieras](https://gnomalab.gumroad.com/)** | **PayPal**
 ---
 
 ## 👤 Créditos
@@ -96,5 +96,5 @@ Estos shaders son gratuitos y de código abierto. Si te resultan útiles en tu t
 
 ---
 
-© 2026 Gnomalab. Hecho por un artista, para artistas.  
+2026 Gnomalab. Hecho por un artista, para artistas.  
 **Licencia MIT** — Úsalo, modifícalo, compártelo. Si te ayuda en tu arte, considera invitarme a una birra 🍺
