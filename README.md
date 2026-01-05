@@ -25,6 +25,34 @@ Muchos de estos efectos están inspirados en plugins comerciales clásicos de Af
 
 ---
 
+## 📥 Cómo Instalar en VDMX
+
+### Instalación Automática (Recomendada)
+
+1. Clona o descarga este repositorio:
+   ```bash
+   git clone https://github.com/Gnomalab/VDMX-ISF-Effects-Suite.git
+   ```
+
+2. Copia toda la carpeta `ISF` a la ubicación de shaders de VDMX:
+   ```bash
+   cp -r ISF/* ~/Library/Graphics/ISF/
+   ```
+
+3. Reinicia VDMX y los shaders aparecerán en tu biblioteca de FX.
+
+### Instalación Manual
+
+1. Descarga el repositorio como ZIP desde GitHub.
+2. Ve a `~/Library/Graphics/ISF/` en tu Mac (puedes usar `Cmd+Shift+G` en Finder).
+3. Arrastra las carpetas individuales de shaders desde `ISF/` a esa ubicación.
+4. Reinicia VDMX.
+
+**💡 Tip:** Cada shader incluye su propio README con descripción técnica completa en inglés y español.
+
+---
+
+
 ## 📂 El Laboratorio (Catálogo de Efectos)
 
 He dividido la suite en estas categorías principales para que te sea fácil navegar por ellas dentro de VDMX:
@@ -55,8 +83,7 @@ He dividido la suite en estas categorías principales para que te sea fácil nav
 
 Estos shaders son gratuitos y de código abierto. Si te resultan útiles en tu trabajo o simplemente quieres apoyar el desarrollo de nuevas herramientas, considera invitarme a una birra:
 
-🔗 **[Gumroad - Pay What You Want]** _(enlace próximamente)_
-
+🔗 **[Gumroad - Aporta lo que quieras](https://gnomalab.gumroad.com/)** | **Ko-fi** | **PayPal**
 ---
 
 ## 👤 Créditos
