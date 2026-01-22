@@ -77,15 +77,6 @@ He dividido la suite en estas categorías principales para que te sea fácil nav
 - **Gn Pixel Melt:** Derretido viscoso con gravedad 360°.
 - **Gn Topo Lines:** Generador de curvas de nivel rítmicas inspiradas en la cartografía técnica.
 
----
-
-## 🍺 Apoya el Proyecto
-
-Estos shaders son gratuitos y de código abierto. Si te resultan útiles en tu trabajo o simplemente quieres apoyar el desarrollo de nuevas herramientas, considera invitarme a una birra:
-
-🔗 **[Gumroad - Aporta lo que quieras](https://gnomalab.gumroad.com/)** | **PayPal**
----
-
 ## 👤 Créditos
 
 - **Concepto y Dirección Artística:** Gnomalab
