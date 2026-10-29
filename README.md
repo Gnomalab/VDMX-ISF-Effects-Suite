@@ -1,6 +1,6 @@
 # ⚗️ Gnomalab: Digital Alchemy Suite
 
-**ISF shaders for VDMX**
+**VDMX ISF Effects Suite**: ISF shaders for VDMX
 
 Welcome to the Digital Alchemy Suite. This is a personal collection of shaders in ISF (Interactive Shader Format), built for signal manipulation, glitch aesthetics and binary processes applied to live video.
 
