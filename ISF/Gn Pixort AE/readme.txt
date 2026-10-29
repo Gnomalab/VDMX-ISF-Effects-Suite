@@ -1,4 +1,4 @@
-Gn PixSort AE
+Gn Pixort AE
 
 [EN] Description
 The definitive version of the PS3 temporal sorting series. This "Ultra" edition is a high-end vector-based displacement engine that treats the image as a fluid data stream, allowing for complex 360-degree digital trails with advanced persistence management.

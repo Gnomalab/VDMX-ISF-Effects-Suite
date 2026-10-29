@@ -7,7 +7,7 @@
         "Feedback"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Procesador triple por bandas de luminancia. Rutea dinámicamente tres motores (Síntesis Analógica, Glitch Radial y Feedback Geométrico) entre negros, medios y blancos con control de orden conmutable.\"",
+    "DESCRIPTION": "Triple processor by luminance bands. Dynamically routes three engines (Analog Synthesis, Radial Glitch and Geometric Feedback) across shadows, midtones and highlights, with switchable order.",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -15,7 +15,7 @@
         },
         {
             "DEFAULT": 0.3,
-            "LABEL": "MASK: Umbral NEGROS/MED",
+            "LABEL": "MASK: Threshold BLACKS/MID",
             "MAX": 1,
             "MIN": 0,
             "NAME": "threshold_min",
@@ -23,7 +23,7 @@
         },
         {
             "DEFAULT": 0.7,
-            "LABEL": "MASK: Umbral MED/BLANCOS",
+            "LABEL": "MASK: Threshold MID/WHITES",
             "MAX": 1,
             "MIN": 0,
             "NAME": "threshold_max",
@@ -31,7 +31,7 @@
         },
         {
             "DEFAULT": 0.1,
-            "LABEL": "MASK: Suavizado",
+            "LABEL": "MASK: Softness",
             "MAX": 0.5,
             "MIN": 0,
             "NAME": "softness",
@@ -39,13 +39,13 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "MASK: Invertir Todo",
+            "LABEL": "MASK: Invert all",
             "NAME": "invert_mask",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 0,
-            "LABEL": "ORDEN: Conmutador",
+            "LABEL": "ORDER: switch",
             "LABELS": [
                 "N:Synth / M:Glitch / B:FB",
                 "N:FB / M:Synth / B:Glitch",
@@ -63,7 +63,7 @@
         },
         {
             "DEFAULT": 100,
-            "LABEL": "SYNTH: Omega (Freq)",
+            "LABEL": "SYNTH: Omega (freq)",
             "MAX": 1000,
             "MIN": 0,
             "NAME": "omega",
@@ -71,7 +71,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "SYNTH: Fase",
+            "LABEL": "SYNTH: Phase",
             "MAX": 6.28,
             "MIN": 0,
             "NAME": "phase",
@@ -79,7 +79,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "SYNTH: Distorsión",
+            "LABEL": "SYNTH: Distortion",
             "MAX": 10,
             "MIN": 0.1,
             "NAME": "distortion",
@@ -87,7 +87,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "SYNTH: Orientacion",
+            "LABEL": "SYNTH: Orientation",
             "LABELS": [
                 "Horizontal",
                 "Vertical"
@@ -101,7 +101,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "SYNTH: Modo Color",
+            "LABEL": "SYNTH: Color mode",
             "LABELS": [
                 "Greyscale",
                 "RGB",
@@ -121,7 +121,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "SYNTH: Lowpass Signal",
+            "LABEL": "SYNTH: Lowpass signal",
             "MAX": 1,
             "MIN": 0,
             "NAME": "lowpass",
@@ -132,13 +132,13 @@
                 0.5,
                 0.5
             ],
-            "LABEL": "GLITCH: RGB Pos (Center 0.5)",
+            "LABEL": "GLITCH: RGB pos (center 0.5)",
             "NAME": "pos_rgb",
             "TYPE": "point2D"
         },
         {
             "DEFAULT": 5,
-            "LABEL": "GLITCH: Copias",
+            "LABEL": "GLITCH: Copies",
             "MAX": 20,
             "MIN": 1,
             "NAME": "glit_copies",
@@ -146,7 +146,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "GLITCH: Angulo",
+            "LABEL": "GLITCH: Angle",
             "MAX": 1,
             "MIN": 0,
             "NAME": "glit_angle",
@@ -170,7 +170,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "FB: Modo Geo",
+            "LABEL": "FB: Geo mode",
             "LABELS": [
                 "Linear",
                 "Zoom",

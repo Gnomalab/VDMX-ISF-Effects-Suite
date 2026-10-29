@@ -1,4 +1,4 @@
-Gn XOR Smear
+Gn XORmear
 
 [EN] Description
 A hybrid glitch engine that merges directional smearing with bitwise logic corruption. Gn XOR Smear operates at the binary level of pixel data, creating authentic digital artifacts that range from grainy noise to monolithic blocks of corrupted color.

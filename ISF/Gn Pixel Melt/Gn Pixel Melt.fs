@@ -5,7 +5,7 @@
         "Melt"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Efecto de derretido orgánico basado en buffer persistente. Permite desplazar píxeles según luminancia, saturación o color en cualquier ángulo, con control de viscosidad y jitter de goteo.\"",
+    "DESCRIPTION": "Organic melt effect based on a persistent buffer. Displaces pixels by luminance, saturation or color at any angle, with viscosity and drip-jitter control.",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -13,14 +13,14 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Derretir basado en:",
+            "LABEL": "Melt based on:",
             "LABELS": [
-                "Luminancia",
-                "Saturación",
-                "Matiz (Hue)",
-                "Rojo",
-                "Verde",
-                "Azul"
+                "Luminance",
+                "Saturation",
+                "Hue",
+                "Red",
+                "Green",
+                "Blue"
             ],
             "NAME": "meltMode",
             "TYPE": "long",
@@ -35,13 +35,13 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invertir Sesgo (Derretir Sombras)",
+            "LABEL": "Invert bias (melt shadows)",
             "NAME": "invertBias",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Umbral de Fusión",
+            "LABEL": "Blend threshold",
             "MAX": 1,
             "MIN": 0,
             "NAME": "meltThreshold",
@@ -49,7 +49,7 @@
         },
         {
             "DEFAULT": 15,
-            "LABEL": "Velocidad Caída",
+            "LABEL": "Fall speed",
             "MAX": 50,
             "MIN": 0,
             "NAME": "meltSpeed",
@@ -57,7 +57,7 @@
         },
         {
             "DEFAULT": 0.98,
-            "LABEL": "Viscosidad (Cola)",
+            "LABEL": "Viscosity (trail)",
             "MAX": 1,
             "MIN": 0.8,
             "NAME": "viscosity",
@@ -65,7 +65,7 @@
         },
         {
             "DEFAULT": 270,
-            "LABEL": "Ángulo Gravedad",
+            "LABEL": "Gravity angle",
             "MAX": 360,
             "MIN": 0,
             "NAME": "angle",
@@ -73,7 +73,7 @@
         },
         {
             "DEFAULT": 0.4,
-            "LABEL": "Ruido Goteo",
+            "LABEL": "Drip noise",
             "MAX": 1,
             "MIN": 0,
             "NAME": "jitter",

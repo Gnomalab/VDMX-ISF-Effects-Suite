@@ -5,7 +5,7 @@
         "Modulation"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Procesador de modulación de señal inspirado en la síntesis analógica. Transforma la imagen en patrones de onda rítmicos con soporte para espacios de color CMYK/HSV, filtrado Lowpass y 11 modos de fusión extrema.\"",
+    "DESCRIPTION": "Signal modulation processor inspired by analog synthesis. Turns the image into rhythmic waveform patterns with CMYK/HSV color spaces, lowpass filtering and 11 extreme blend modes.",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -13,7 +13,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Umbral de Efecto",
+            "LABEL": "Effect threshold",
             "MAX": 1,
             "MIN": 0,
             "NAME": "threshold",
@@ -21,7 +21,7 @@
         },
         {
             "DEFAULT": 0.1,
-            "LABEL": "Suavizado Umbral",
+            "LABEL": "Threshold softness",
             "MAX": 1,
             "MIN": 0,
             "NAME": "threshSoft",
@@ -29,13 +29,13 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invertir Máscara (Afectar Sombras)",
+            "LABEL": "Invert mask (affect shadows)",
             "NAME": "invertMask",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 100,
-            "LABEL": "Omega (Frecuencia)",
+            "LABEL": "Omega (frequency)",
             "MAX": 1000,
             "MIN": 0,
             "NAME": "omega",
@@ -43,7 +43,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Fase",
+            "LABEL": "Phase",
             "MAX": 6.28,
             "MIN": 0,
             "NAME": "phase",
@@ -51,7 +51,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Distorsión (Gain)",
+            "LABEL": "Distortion (gain)",
             "MAX": 10,
             "MIN": 0.1,
             "NAME": "distortion",
@@ -59,7 +59,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Orientación",
+            "LABEL": "Orientation",
             "LABELS": [
                 "Horizontal",
                 "Vertical"
@@ -73,7 +73,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Dirección",
+            "LABEL": "Direction",
             "LABELS": [
                 "Forward",
                 "Backward"
@@ -87,7 +87,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Lowpass Signal",
+            "LABEL": "Lowpass signal",
             "MAX": 1,
             "MIN": 0,
             "NAME": "lowpass",
@@ -95,7 +95,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Modo de Color",
+            "LABEL": "Color mode",
             "LABELS": [
                 "Greyscale",
                 "RGB",
@@ -115,12 +115,12 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Switch Channel",
+            "LABEL": "Switch channel",
             "LABELS": [
                 "Luma",
-                "Rojo",
-                "Verde",
-                "Azul"
+                "Red",
+                "Green",
+                "Blue"
             ],
             "NAME": "channelSwitch",
             "TYPE": "long",
@@ -133,7 +133,7 @@
         },
         {
             "DEFAULT": 0.4,
-            "LABEL": "Grosor",
+            "LABEL": "Thickness",
             "MAX": 1,
             "MIN": 0,
             "NAME": "lineWidth",
@@ -141,7 +141,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Modo de Fusión",
+            "LABEL": "Blend mode",
             "LABELS": [
                 "Normal Mix",
                 "Add",
@@ -173,7 +173,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Mezcla Final (Wet)",
+            "LABEL": "Final mix (wet)",
             "MAX": 1,
             "MIN": 0,
             "NAME": "blendMix",

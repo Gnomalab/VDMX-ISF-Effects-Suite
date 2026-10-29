@@ -5,26 +5,26 @@
         "PS3"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Motor de pixel sorting temporal de alta gama con control vectorial de 360°. Incluye 8 modos de sesgo de ordenación, soporte para máscara externa, aberración cromática en el feedback y desvanecimiento dinámico de estelas.\"",
+    "DESCRIPTION": "High-end temporal pixel sorting engine with 360° vector control. Includes 8 sort-bias modes, external mask support, chromatic aberration in the feedback and dynamic trail fading.",
     "INPUTS": [
         {
             "NAME": "inputImage",
             "TYPE": "image"
         },
         {
-            "LABEL": "Máscara Externa",
+            "LABEL": "External mask",
             "NAME": "maskImage",
             "TYPE": "image"
         },
         {
             "DEFAULT": false,
-            "LABEL": "Usar Máscara Externa",
+            "LABEL": "Use external mask",
             "NAME": "useExternalMask",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 90,
-            "LABEL": "Ángulo",
+            "LABEL": "Angle",
             "MAX": 360,
             "MIN": 0,
             "NAME": "angle",
@@ -32,22 +32,22 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invertir Dirección",
+            "LABEL": "Invert direction",
             "NAME": "invertFlow",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Sesgo de Ordenación (Bias)",
+            "LABEL": "Sort bias",
             "LABELS": [
-                "Suma RGB",
-                "Luminancia",
-                "Matiz (Hue)",
-                "Saturación",
-                "Ligereza",
-                "Crominancia I",
-                "Crominancia Q",
-                "Alfa"
+                "RGB sum",
+                "Luminance",
+                "Hue",
+                "Saturation",
+                "Lightness",
+                "Chrominance I",
+                "Chrominance Q",
+                "Alpha"
             ],
             "NAME": "sortBiasMode",
             "TYPE": "long",
@@ -64,7 +64,7 @@
         },
         {
             "DEFAULT": 30,
-            "LABEL": "Fuerza Desplazamiento",
+            "LABEL": "Displacement strength",
             "MAX": 100,
             "MIN": 0,
             "NAME": "pixelStrength",
@@ -72,7 +72,7 @@
         },
         {
             "DEFAULT": 0.95,
-            "LABEL": "Persistencia (Base)",
+            "LABEL": "Persistence (base)",
             "MAX": 1,
             "MIN": 0,
             "NAME": "feedback",
@@ -80,7 +80,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Influencia Bias en Cola",
+            "LABEL": "Bias influence on trail",
             "MAX": 1,
             "MIN": 0,
             "NAME": "biasToFeedback",
@@ -88,7 +88,7 @@
         },
         {
             "DEFAULT": 0.01,
-            "LABEL": "Desvanecimiento (Fade Out)",
+            "LABEL": "Fade out",
             "MAX": 0.2,
             "MIN": 0,
             "NAME": "fadeAmount",
@@ -96,7 +96,7 @@
         },
         {
             "DEFAULT": 8,
-            "LABEL": "Desplazamiento Color (Chroma)",
+            "LABEL": "Color shift (Chroma)",
             "MAX": 40,
             "MIN": 0,
             "NAME": "chromaAbr",
@@ -104,7 +104,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Tamaño de Bloque",
+            "LABEL": "Block size",
             "MAX": 50,
             "MIN": 1,
             "NAME": "blocky",
@@ -112,7 +112,7 @@
         },
         {
             "DEFAULT": 0.3,
-            "LABEL": "Ruido / Jitter",
+            "LABEL": "Noise / jitter",
             "MAX": 1,
             "MIN": 0,
             "NAME": "jitter",
@@ -120,7 +120,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Umbral Mín",
+            "LABEL": "Threshold min",
             "MAX": 1,
             "MIN": 0,
             "NAME": "thresholdMin",
@@ -128,7 +128,7 @@
         },
         {
             "DEFAULT": 0.8,
-            "LABEL": "Umbral Máx",
+            "LABEL": "Threshold max",
             "MAX": 1,
             "MIN": 0,
             "NAME": "thresholdMax",
@@ -136,7 +136,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Fringe Intensity",
+            "LABEL": "Fringe intensity",
             "MAX": 2,
             "MIN": 0,
             "NAME": "fringeAmount",
@@ -149,12 +149,12 @@
                 1,
                 1
             ],
-            "LABEL": "Fringe Tint",
+            "LABEL": "Fringe tint",
             "NAME": "fringeColor",
             "TYPE": "color"
         },
         {
-            "LABEL": "Reiniciar",
+            "LABEL": "Reset",
             "NAME": "clearBuffer",
             "TYPE": "event"
         }

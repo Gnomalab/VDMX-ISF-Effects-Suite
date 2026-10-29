@@ -4,7 +4,7 @@
         "Stylize"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Pixel sorting de una sola pasada optimizado para mantener fondos limpios. Permite ordenar por Luma, Hue o Sat y realizar un fundido suave hacia la imagen original mediante un sistema de límites de rango.\"",
+    "DESCRIPTION": "Single-pass pixel sorting optimized to keep backgrounds clean. Sorts by Luma, Hue or Saturation and crossfades smoothly back to the original image using range limits.",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -26,7 +26,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Sort By",
+            "LABEL": "Sort by",
             "LABELS": [
                 "Luma",
                 "Hue",
@@ -44,7 +44,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Range Low",
+            "LABEL": "Range low",
             "MAX": 1,
             "MIN": 0,
             "NAME": "rangeLow",
@@ -52,7 +52,7 @@
         },
         {
             "DEFAULT": 0.8,
-            "LABEL": "Range High",
+            "LABEL": "Range high",
             "MAX": 1,
             "MIN": 0,
             "NAME": "rangeHigh",
@@ -60,7 +60,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Stretch Amount",
+            "LABEL": "Stretch amount",
             "MAX": 1,
             "MIN": 0,
             "NAME": "stretch",
@@ -68,7 +68,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Fade to Original",
+            "LABEL": "Fade to original",
             "MAX": 1,
             "MIN": 0,
             "NAME": "fade",
@@ -76,13 +76,13 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invert Sort Order",
+            "LABEL": "Invert sort order",
             "NAME": "invertMode",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 0.1,
-            "LABEL": "Smooth Jitter",
+            "LABEL": "Smooth jitter",
             "MAX": 1,
             "MIN": 0,
             "NAME": "jitter",

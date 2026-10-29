@@ -1,4 +1,4 @@
-Gn Gn Broke in Bad
+Gn Broke in Bad
 [EN] Description
 A precision glitch tool designed to create high-frequency row displacement and procedural micro-textures based on image luminance. Unlike broad distortion effects, this shader focuses on "Fine Grain" aesthetics and ultra-thin scanline artifacts.
 

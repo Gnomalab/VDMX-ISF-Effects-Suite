@@ -5,40 +5,40 @@
         "Flow"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "PixSort Flow Mapper - El movimiento lo dicta una segunda imagen",
+    "DESCRIPTION": "PixSort Flow Mapper - movement driven by a second image",
     "INPUTS": [
         {
             "NAME": "inputImage",
             "TYPE": "image"
         },
         {
-            "LABEL": "Mapa de Flujo (R=X, G=Y)",
+            "LABEL": "Flow map (R=X, G=Y)",
             "NAME": "flowMapImage",
             "TYPE": "image"
         },
         {
-            "LABEL": "Máscara Externa (Recorte)",
+            "LABEL": "External mask (clip)",
             "NAME": "maskImage",
             "TYPE": "image"
         },
         {
             "DEFAULT": false,
-            "LABEL": "Usar Máscara Externa",
+            "LABEL": "Use external mask",
             "NAME": "useExternalMask",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 3,
-            "LABEL": "Sesgo de Ordenación (Bias)",
+            "LABEL": "Sort bias",
             "LABELS": [
-                "Suma RGB",
-                "Luminancia",
-                "Matiz (Hue)",
-                "Saturación",
-                "Ligereza",
-                "Crominancia I",
-                "Crominancia Q",
-                "Alfa"
+                "RGB sum",
+                "Luminance",
+                "Hue",
+                "Saturation",
+                "Lightness",
+                "Chrominance I",
+                "Chrominance Q",
+                "Alpha"
             ],
             "NAME": "sortBiasMode",
             "TYPE": "long",
@@ -55,7 +55,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Influencia del Mapa",
+            "LABEL": "Map influence",
             "MAX": 2,
             "MIN": 0,
             "NAME": "flowMapStrength",
@@ -63,7 +63,7 @@
         },
         {
             "DEFAULT": 30,
-            "LABEL": "Fuerza Master",
+            "LABEL": "Master strength",
             "MAX": 100,
             "MIN": 0,
             "NAME": "pixelStrength",
@@ -71,7 +71,7 @@
         },
         {
             "DEFAULT": 0.96,
-            "LABEL": "Persistencia (Cola)",
+            "LABEL": "Persistence (trail)",
             "MAX": 1,
             "MIN": 0,
             "NAME": "feedback",
@@ -79,7 +79,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Influencia Bias en Cola",
+            "LABEL": "Bias influence on trail",
             "MAX": 1,
             "MIN": 0,
             "NAME": "biasToFeedback",
@@ -87,7 +87,7 @@
         },
         {
             "DEFAULT": 10,
-            "LABEL": "Desplazamiento Color (Chroma)",
+            "LABEL": "Color shift (Chroma)",
             "MAX": 40,
             "MIN": 0,
             "NAME": "chromaAbr",
@@ -95,7 +95,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Tamaño de Bloque",
+            "LABEL": "Block size",
             "MAX": 50,
             "MIN": 1,
             "NAME": "blocky",
@@ -103,7 +103,7 @@
         },
         {
             "DEFAULT": 0.3,
-            "LABEL": "Ruido / Jitter",
+            "LABEL": "Noise / jitter",
             "MAX": 1,
             "MIN": 0,
             "NAME": "jitter",
@@ -111,7 +111,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Umbral Mín",
+            "LABEL": "Threshold min",
             "MAX": 1,
             "MIN": 0,
             "NAME": "thresholdMin",
@@ -119,7 +119,7 @@
         },
         {
             "DEFAULT": 0.8,
-            "LABEL": "Umbral Máx",
+            "LABEL": "Threshold max",
             "MAX": 1,
             "MIN": 0,
             "NAME": "thresholdMax",
@@ -127,7 +127,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Fringe Intensity",
+            "LABEL": "Fringe intensity",
             "MAX": 2,
             "MIN": 0,
             "NAME": "fringeAmount",
@@ -140,12 +140,12 @@
                 1,
                 1
             ],
-            "LABEL": "Fringe Tint",
+            "LABEL": "Fringe tint",
             "NAME": "fringeColor",
             "TYPE": "color"
         },
         {
-            "LABEL": "Reiniciar",
+            "LABEL": "Reset",
             "NAME": "clearBuffer",
             "TYPE": "event"
         }

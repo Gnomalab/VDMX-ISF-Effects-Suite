@@ -1,4 +1,4 @@
-Gn Slit-Scan
+Gn Slit-scan
 
 [EN] Description
 A professional time-displacement engine based on the classic Slit-Scan technique. Gn Slit-Scan Master captures a specific "slit" of the incoming video and smears it across the screen over time. Unlike standard slit-scanners, this version allows the scan line to be warped by a secondary map, creating organic, wave-like temporal distortions.

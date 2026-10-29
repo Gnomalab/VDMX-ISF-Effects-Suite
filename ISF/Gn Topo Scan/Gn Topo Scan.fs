@@ -5,16 +5,16 @@
         "Gnomalab"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Generador de isolíneas topográficas basadas en luminancia. Incluye motor de pre-procesado Blur/Sharpen para suavizar o enfocar el mapa, animación de erosión rítmica y modo de mezcla estilo HUD.\"",
+    "DESCRIPTION": "Topographic contour-line generator driven by luminance. Includes a Blur/Sharpen pre-processing stage to soften or focus the map, rhythmic erosion animation and a HUD-style blend mode.",
     "INPUTS": [
         {
-            "LABEL": "Source Image",
+            "LABEL": "Source image",
             "NAME": "inputImage",
             "TYPE": "image"
         },
         {
             "DEFAULT": 20,
-            "LABEL": "Número de Niveles",
+            "LABEL": "Number of levels",
             "MAX": 100,
             "MIN": 2,
             "NAME": "levels",
@@ -22,7 +22,7 @@
         },
         {
             "DEFAULT": 0.08,
-            "LABEL": "Grosor de Línea",
+            "LABEL": "Line thickness",
             "MAX": 0.5,
             "MIN": 0.001,
             "NAME": "lineThickness",
@@ -30,7 +30,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Suavizado Bordes",
+            "LABEL": "Edge softness",
             "MAX": 1,
             "MIN": 0,
             "NAME": "softness",
@@ -38,7 +38,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Velocidad Erosión",
+            "LABEL": "Erosion speed",
             "MAX": 2,
             "MIN": -2,
             "NAME": "speed",
@@ -46,7 +46,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Desplase de Altura",
+            "LABEL": "Height offset",
             "MAX": 1,
             "MIN": 0,
             "NAME": "offset",
@@ -54,7 +54,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Definición (Blur <-> Sharpen)",
+            "LABEL": "Definition (Blur <-> Sharpen)",
             "MAX": 1,
             "MIN": -1,
             "NAME": "preProcess",
@@ -67,13 +67,13 @@
                 1,
                 1
             ],
-            "LABEL": "Color de Línea",
+            "LABEL": "Line color",
             "NAME": "lineColor",
             "TYPE": "color"
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Mezcla con Original (HUD)",
+            "LABEL": "Mix with original (HUD)",
             "MAX": 1,
             "MIN": 0,
             "NAME": "showSource",
@@ -81,7 +81,7 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invertir Mapa",
+            "LABEL": "Invert map",
             "NAME": "invert",
             "TYPE": "bool"
         }

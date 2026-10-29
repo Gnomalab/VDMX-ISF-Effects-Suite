@@ -1,4 +1,4 @@
-Gn Signal trinity
+Gn Signal Trinity
 
 [EN] Description
 The "Gn Triple Alchemy Processor" is a high-end signal routing matrix designed for advanced look development. It splits the incoming video into three distinct luminance bands (Blacks, Midtones, and Highlights) and assigns a specialized processing engine to each. With a switchable order, this shader functions like a video modular synth.

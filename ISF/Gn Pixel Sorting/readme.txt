@@ -1,4 +1,4 @@
-Gn PixelSorting
+Gn Pixel Sorting
 
 [EN] Description
 A temporal pixel sorting engine that utilizes a persistent accumulation buffer to create infinite, evolving digital trails. The V3 introduces a "pulse" logic that allows the sorting speed to modulate rhythmically, making it an ideal tool for music-synced performances.

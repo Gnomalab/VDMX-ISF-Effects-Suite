@@ -1,4 +1,4 @@
-Gn Glitch FlowMap
+Gn FlowMap
 [EN] Description
 An advanced vector-based displacement engine that uses a secondary "Flow Map" (where Red and Green channels represent X and Y coordinates) to drive pixel movement. This shader treats the image like a fluid, where edges act as physical barriers and colors define the flow's intensity.
 

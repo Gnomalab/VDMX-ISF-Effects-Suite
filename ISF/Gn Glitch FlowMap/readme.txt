@@ -1,4 +1,4 @@
-Gn PixSort Flow Map
+Gn Glitch FlowMap
 [EN] Description
 A high-end hybrid engine that merges Pixel Sorting with Vector Flow displacement. Unlike traditional sorters that are limited to horizontal or vertical axes, this shader uses a secondary "Flow Map" image to dictate the direction of the sorting trails. It interprets Red channel data as X-axis movement and Green as Y-axis, allowing for complex, swirling, and custom-path digital decay.
 

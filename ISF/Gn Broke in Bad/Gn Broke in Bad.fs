@@ -4,7 +4,7 @@
         "Distortion"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "Luminance Displacement - Fine Grain Version",
+    "DESCRIPTION": "Luminance displacement - fine grain version",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -20,7 +20,7 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invert Threshold",
+            "LABEL": "Invert threshold",
             "NAME": "invertLuma",
             "TYPE": "bool"
         },
@@ -34,7 +34,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Blend Mode",
+            "LABEL": "Blend mode",
             "LABELS": [
                 "Replace",
                 "Multiply"
@@ -48,7 +48,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Pattern Style",
+            "LABEL": "Pattern style",
             "LABELS": [
                 "Fine Grain",
                 "Ultra Thin V",

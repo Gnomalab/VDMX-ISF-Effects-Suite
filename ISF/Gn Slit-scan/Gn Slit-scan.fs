@@ -4,7 +4,7 @@
         "Time"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Motor de Slit-Scan avanzado con 4 direcciones de escaneo, deformación por mapas (gradientes/capas externas), separación RGB temporal y feedback persistente con desplazamiento de color.\"",
+    "DESCRIPTION": "Advanced slit-scan engine with 4 scan directions, map-based deformation (gradients / external layers), temporal RGB separation and persistent feedback with color shift.",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -12,12 +12,12 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Map Source",
+            "LABEL": "Map source",
             "LABELS": [
                 "Horizontal Gradient",
                 "Vertical Gradient",
                 "Circular Gradient",
-                "External Layer"
+                "External layer"
             ],
             "NAME": "mapMode",
             "TYPE": "long",
@@ -29,13 +29,13 @@
             ]
         },
         {
-            "LABEL": "External Layer Map",
+            "LABEL": "External layer map",
             "NAME": "mapImage",
             "TYPE": "image"
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Map Influence",
+            "LABEL": "Map influence",
             "MAX": 2,
             "MIN": -1,
             "NAME": "mapInfluence",
@@ -43,7 +43,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Map Curve Smoothing",
+            "LABEL": "Map curve smoothing",
             "MAX": 3,
             "MIN": 0,
             "NAME": "mapSmoothing",
@@ -51,7 +51,7 @@
         },
         {
             "DEFAULT": 0.005,
-            "LABEL": "Map Luma Blur",
+            "LABEL": "Map luma blur",
             "MAX": 0.02,
             "MIN": 0,
             "NAME": "mapBlur",
@@ -59,7 +59,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Map Phase / Offset",
+            "LABEL": "Map phase / offset",
             "MAX": 1,
             "MIN": 0,
             "NAME": "mapPhase",
@@ -67,7 +67,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Scan Direction",
+            "LABEL": "Scan direction",
             "LABELS": [
                 "Moves Left",
                 "Moves Right",
@@ -85,7 +85,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Base Slit Position",
+            "LABEL": "Base slit position",
             "MAX": 1,
             "MIN": 0,
             "NAME": "slitPos",
@@ -93,7 +93,7 @@
         },
         {
             "DEFAULT": 0.002,
-            "LABEL": "Scan Speed",
+            "LABEL": "Scan speed",
             "MAX": 0.01,
             "MIN": 0,
             "NAME": "speed",
@@ -101,7 +101,7 @@
         },
         {
             "DEFAULT": 0.002,
-            "LABEL": "RGB Split (Temporal)",
+            "LABEL": "RGB split (temporal)",
             "MAX": 0.02,
             "MIN": 0,
             "NAME": "rgbSplit",
@@ -109,7 +109,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Feedback (Ghosting)",
+            "LABEL": "Feedback (ghosting)",
             "MAX": 0.95,
             "MIN": 0,
             "NAME": "feedbackAmount",
@@ -137,8 +137,7 @@
             "PERSISTENT": true,
             "TARGET": "slitBuffer"
         },
-        {
-        }
+        {}
     ],
     "VSN": "1.0.0"
 }

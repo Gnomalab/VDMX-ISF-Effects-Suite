@@ -5,7 +5,7 @@
         "Compression"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "fake Datamosh ",
+    "DESCRIPTION": "Fake datamosh",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -13,7 +13,7 @@
         },
         {
             "DEFAULT": 0.7,
-            "LABEL": "Fuerza Derretido",
+            "LABEL": "Melt strength",
             "MAX": 1,
             "MIN": 0,
             "NAME": "mosh_strength",
@@ -21,7 +21,7 @@
         },
         {
             "DEFAULT": 16,
-            "LABEL": "Tamaño Macrobloque",
+            "LABEL": "Macroblock size",
             "MAX": 64,
             "MIN": 2,
             "NAME": "block_size",
@@ -29,7 +29,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Sensibilidad Mov.",
+            "LABEL": "Motion sensitivity",
             "MAX": 1,
             "MIN": 0,
             "NAME": "motion_threshold",
@@ -37,7 +37,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Solo en Bordes",
+            "LABEL": "Edges only",
             "MAX": 1,
             "MIN": 0,
             "NAME": "edge_boost",
@@ -61,7 +61,7 @@
         },
         {
             "DEFAULT": 0.98,
-            "LABEL": "Persistencia Escena",
+            "LABEL": "Scene persistence",
             "MAX": 1,
             "MIN": 0,
             "NAME": "persistence",
@@ -69,7 +69,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Limpieza Fondo",
+            "LABEL": "Background cleanup",
             "MAX": 1,
             "MIN": 0,
             "NAME": "background_clean",
@@ -77,7 +77,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Fuerza Gravedad",
+            "LABEL": "Gravity strength",
             "MAX": 0.2,
             "MIN": 0,
             "NAME": "gravity_force",
@@ -85,7 +85,7 @@
         },
         {
             "DEFAULT": 0.75,
-            "LABEL": "Direccion Gravedad",
+            "LABEL": "Gravity direction",
             "MAX": 1,
             "MIN": 0,
             "NAME": "gravity_dir",
@@ -93,7 +93,7 @@
         },
         {
             "DEFAULT": 0.3,
-            "LABEL": "Ensuciar Color",
+            "LABEL": "Dirty color",
             "MAX": 1,
             "MIN": 0,
             "NAME": "color_corruption",
@@ -101,13 +101,13 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Limpiar I-Frame",
+            "LABEL": "Clear I-frame",
             "NAME": "reset",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 0.15,
-            "LABEL": "Velocidad Recuperacion",
+            "LABEL": "Recovery speed",
             "MAX": 1,
             "MIN": 0,
             "NAME": "sync_speed",

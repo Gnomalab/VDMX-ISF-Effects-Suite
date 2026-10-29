@@ -6,16 +6,16 @@
         "Vandalizer"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Procesador de destrucción quirúrgica. Aplica Slices rítmicos, Melt vertical, TV Warp y RGB Split mediante un sistema de máscaras de precisión (Luma, RGB, Saturación). Incluye 7 modos de fusión para una integración estética del error.\"",
+    "DESCRIPTION": "Surgical destruction processor. Applies rhythmic slices, vertical melt, TV warp and RGB split through precision masks (Luma, RGB, Saturation). Includes 7 blend modes to integrate the error aesthetically.",
     "INPUTS": [
         {
-            "LABEL": "Source Image",
+            "LABEL": "Source image",
             "NAME": "inputImage",
             "TYPE": "image"
         },
         {
             "DEFAULT": 3,
-            "LABEL": "Glitch Speed",
+            "LABEL": "Glitch speed",
             "MAX": 10,
             "MIN": 0,
             "NAME": "flickerSpeed",
@@ -23,7 +23,7 @@
         },
         {
             "DEFAULT": 4,
-            "LABEL": "Matte Channel",
+            "LABEL": "Matte channel",
             "LABELS": [
                 "Luminance",
                 "Red",
@@ -43,7 +43,7 @@
         },
         {
             "DEFAULT": 0.3,
-            "LABEL": "Matte Threshold",
+            "LABEL": "Matte threshold",
             "MAX": 1,
             "MIN": 0,
             "NAME": "threshold",
@@ -51,7 +51,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Matte Softness",
+            "LABEL": "Matte softness",
             "MAX": 1,
             "MIN": 0,
             "NAME": "matteSoftness",
@@ -59,13 +59,13 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invert Threshold",
+            "LABEL": "Invert threshold",
             "NAME": "invertThreshold",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 20,
-            "LABEL": "Slice Count",
+            "LABEL": "Slice count",
             "MAX": 100,
             "MIN": 2,
             "NAME": "sliceCount",
@@ -73,7 +73,7 @@
         },
         {
             "DEFAULT": 0.4,
-            "LABEL": "Slice Displacement",
+            "LABEL": "Slice displacement",
             "MAX": 1,
             "MIN": 0,
             "NAME": "sliceDisplace",
@@ -81,7 +81,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Melt Stretch",
+            "LABEL": "Melt stretch",
             "MAX": 1,
             "MIN": 0,
             "NAME": "meltStrength",
@@ -89,7 +89,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "TV Warp",
+            "LABEL": "TV warp",
             "MAX": 1,
             "MIN": 0,
             "NAME": "badTvWarp",
@@ -97,7 +97,7 @@
         },
         {
             "DEFAULT": 0.05,
-            "LABEL": "RGB Split",
+            "LABEL": "RGB split",
             "MAX": 0.3,
             "MIN": 0,
             "NAME": "rgbShift",
@@ -105,7 +105,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Modo de Fusión",
+            "LABEL": "Blend mode",
             "LABELS": [
                 "Normal Mix",
                 "Luma Mask",
@@ -129,7 +129,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Mezcla Fusión (Wet/Dry)",
+            "LABEL": "Blend mix (wet/dry)",
             "MAX": 1,
             "MIN": 0,
             "NAME": "blendMix",

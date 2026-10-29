@@ -1,91 +1,104 @@
 # ⚗️ Gnomalab: Digital Alchemy Suite
 
-**Shaders ISF para VDMX**
+**ISF shaders for VDMX**
 
-¡Bienvenido a la Digital Alchemy Suite! Esta es una colección personal de shaders en formato ISF (Interactive Shader Format), creados específicamente para la manipulación de señal, la estética glitch y procesos binarios aplicados al vídeo en tiempo real.
-
----
-
-## 🚀 Sobre el Desarrollo e Inspiración
-
-Este proyecto nace de las ganas de llevar conceptos estéticos y procesos de postproducción tradicional (que normalmente requieren render) directamente al flujo de trabajo en vivo.
-
-Muchos de estos efectos están inspirados en plugins comerciales clásicos de After Effects y otras plataformas de composición, pero "hackeados" y portados a ISF para que el píxel sea modelado en el momento, bajo el calor del directo. Encontrarás desde distorsiones matemáticas puras hasta homenajes a la arqueología mediática, como el procesamiento de barrido analógico de los Vasulka y su mítico sintetizador Rutt-Etra.
-
-**Nota sobre la autoría:** Yo no soy programador. Esta suite es el resultado de una colaboración creativa con Gemini (Google AI). Ella ha actuado como el puente técnico para materializar las ideas, estructuras y lógicas que yo tenía en mente pero no sabía cómo escribir en código. Este flujo de trabajo es una prueba de cómo la IA puede empoderar a los artistas para que podamos fabricar nuestras propias herramientas.
+Welcome to the Digital Alchemy Suite. This is a personal collection of shaders in ISF (Interactive Shader Format), built for signal manipulation, glitch aesthetics and binary processes applied to live video.
 
 ---
 
-## 🛠️ Compatibilidad y Rendimiento
+## 🚀 About the Development and Inspiration
 
-- **Testado en:** VDMX6 Plus.
-- **Compatibilidad:** Debería funcionar perfectamente en VDMX6, VDMX5 y cualquier software que soporte el estándar ISF (aunque no han sido probados fuera de VDMX).
-- **Rendimiento:** ¡Ojo! Algunos shaders son computacionalmente pesados, especialmente los que tienen procesos encadenados (multi-pass) o feedback persistente. El rendimiento dependerá directamente de la potencia de tu GPU.
-- **Interfaz (UI):** Como son herramientas de uso personal original, algunos parámetros están en español. Siéntete libre de editarlos o renombrarlos si te resulta más cómodo.
+This project grew out of the wish to bring aesthetic concepts and traditional post-production processes, which normally require a render, into a live workflow.
+
+Many of these effects are inspired by classic commercial plugins for After Effects and other compositing platforms, then "hacked" and ported to ISF so that the pixel is computed on the spot, under the heat of a live performance. The collection ranges from pure mathematical distortions to homages to media archaeology, such as the analog scan processing of the Vasulkas and their legendary Rutt-Etra synthesizer.
+
+**Authorship note:** I am not a programmer. This suite is the result of a creative collaboration with Gemini (Google AI), which acted as the technical bridge to turn ideas, structures and logic I had in mind into code I did not know how to write. It is an example of how AI can empower artists to build their own tools.
 
 ---
 
-## 📥 Cómo Instalar en VDMX
+## 🛠️ Compatibility and Performance
 
-### Instalación Automática (Recomendada)
+- **Tested on:** VDMX6 Plus.
+- **Compatibility:** Should work in VDMX6 and VDMX5, and in any software that supports the ISF standard. Only VDMX6 Plus has been tested so far.
+- **Performance:** Some shaders are computationally heavy, especially those with chained passes (multi-pass) or persistent feedback. Performance depends directly on your GPU.
+- **User interface:** These are personal tools, so parameter names are in a mix of English and Spanish. Feel free to edit or rename them to suit you.
 
-1. Clona o descarga este repositorio:
+---
+
+## 📥 Installing in VDMX
+
+### Automatic installation (recommended)
+
+1. Clone or download this repository:
    ```bash
    git clone https://github.com/Gnomalab/VDMX-ISF-Effects-Suite.git
    ```
 
-2. Copia toda la carpeta `ISF` a la ubicación de shaders de VDMX:
+2. Copy the contents of the `ISF` folder into VDMX's shader folder:
    ```bash
    cp -r ISF/* ~/Library/Graphics/ISF/
    ```
 
-3. Reinicia VDMX y los shaders aparecerán en tu biblioteca de FX.
+3. Restart VDMX. The shaders will appear in your FX library.
 
-### Instalación Manual
+### Manual installation
 
-1. Descarga el repositorio como ZIP desde GitHub.
-2. Ve a `~/Library/Graphics/ISF/` en tu Mac (puedes usar `Cmd+Shift+G` en Finder).
-3. Arrastra las carpetas individuales de shaders desde `ISF/` a esa ubicación.
-4. Reinicia VDMX.
+1. Download the repository as a ZIP from GitHub.
+2. Go to `~/Library/Graphics/ISF/` on your Mac (you can use `Cmd+Shift+G` in Finder).
+3. Drag the individual shader folders from `ISF/` into that location.
+4. Restart VDMX.
 
-**💡 Tip:** Cada shader incluye su propio README con descripción técnica completa en inglés y español.
+**💡 Tip:** Each shader folder includes its own `readme.txt` with a full technical description.
 
 ---
 
+## 📂 The Laboratory (Effect Catalog)
 
-## 📂 El Laboratorio (Catálogo de Efectos)
-
-He dividido la suite en estas categorías principales para que te sea fácil navegar por ellas dentro de VDMX:
+The suite is grouped into four categories to make it easy to browse inside VDMX. Effect names below match the folder and file names in `ISF/`.
 
 ### 1. Pixel Sorting & Vector Flow 🌊
-- **Gn PixSort S3:** Mi versión más avanzada. Olvídate de las líneas rectas; aquí hay espirales, vórtices y campos magnéticos.
-- **Gn PixSort Flow Mapper:** El movimiento lo dicta una segunda imagen. Control total del flujo.
-- **Gn PixelSort Clean:** Para cuando necesitas ordenación pero quieres mantener el fondo intacto.
+- **Gn Pixort** (`Gn  Pixort`): Advanced pixel sorting for VDMX6.
+- **Gn Pixort S3**: The most advanced version. No more straight lines: spirals, vortices and magnetic fields, with 8 flow modes.
+- **Gn Pixort Flow Map**: Movement is driven by a second image. Full control of the flow field.
+- **Gn Pixort AE**: Temporal pixel sorting with 360° vector control and external mask support.
+- **Gn Pixel Sorting**: Persistent pixel sorter with rhythmic speed modulation.
+- **Gn Pixel Sort Clean**: Sorting that keeps the background intact.
+- **Gn Glitch FlowMap**: Flow mapper in which a second image dictates the direction of the sort.
+- **Gn FlowMap**: Flow map generated from an input source.
 
-### 2. Glitch & Vandalismo Digital 👾
-- **Gn Vandalizer:** Destrucción selectiva. Slices, Melt y TV Warp focalizados por máscaras de precisión.
-- **Gn XOR Smear:** Corrupción bitwise pura. Texturas que parecen nacer del propio error del dato.
-- **Gn Glitch Control:** La "navaja suiza" para desplazamientos RGB, estiramientos y copias.
+### 2. Glitch & Digital Vandalism 👾
+- **Gn Vandalizer**: Selective destruction. Slices, melt and TV warp, focused by precision masks.
+- **Gn XORmear**: Pure bitwise corruption. Textures that look like they grew out of the data error itself.
+- **Gn XORter**: Hybrid binary destruction and displacement, combining a bitwise XOR engine with persistent pixel sorting.
+- **Gn Brutalist Crush**: XOR bit-crush chained with pixel sorting, with a selectable processing order.
+- **Gn Glitch Control**: The "Swiss army knife" for RGB offsets, stretching and copies, with switchable processing order.
+- **Gn Broke in Bad**: Luminance-driven displacement, fine-grain version.
+- **Gn Datamosh**: A fake datamosh effect.
+- **Gn Q-Smear Noise**: Chaotic smear with angles quantized by brightness and an unstable feedback engine.
 
-### 3. Síntesis de Vídeo y Señal 📺
-- **Gn Vasulka Synth:** Un viaje al Rutt-Etra. Transforma el vídeo en una escultura topográfica 3D vibrante.
-- **Gn Modulation Pro:** Trata el vídeo como voltaje. Modulación analógica con espacios de color CMYK y HSV.
-- **Gn Triple Alchemy:** Una matriz de ruteo para aplicar distintos procesos a negros, medios y blancos de forma independiente.
+### 3. Video Synthesis & Signal 📺
+- **Gn Vasulkas FX**: A tribute to the Rutt-Etra. Turns video into a vibrant 3D topographic sculpture.
+- **Gn Modulation Synth**: Treats video as voltage. Analog-style modulation with CMYK and HSV color spaces.
+- **Gn Signal Trinity**: A routing matrix that applies three different processes to shadows, midtones and highlights independently.
+- **Gn Topo Scan**: Generator of rhythmic contour lines inspired by technical cartography.
 
-### 4. Deformación Temporal y Feedback 🌀
-- **Gn Slit-Scan Master:** Escaneo de rendija con deformación por mapas. El tiempo ya no es lineal.
-- **Gn Pixel Melt:** Derretido viscoso con gravedad 360°.
-- **Gn Topo Lines:** Generador de curvas de nivel rítmicas inspiradas en la cartografía técnica.
-
-## 👤 Créditos
-
-- **Concepto y Dirección Artística:** Gnomalab
-- **Puente Técnico & Thought Partner:** Gemini AI
-- **Web:** [www.gnomalab.es](http://www.gnomalab.es/)
-- **Instagram:** [@gnomalab](https://www.instagram.com/gnomalab)
-- **Youtube:** [Gnomalab](https://www.youtube.com/@gnomalab)
+### 4. Temporal Deformation & Feedback 🌀
+- **Gn Slit-scan**: Slit-scan with map-based deformation. Time is no longer linear.
+- **Gn Pixel Melt**: Viscous melting with 360° gravity.
+- **Gn Pixel Repeat**: Mask-based pixel repetition with rhythmic geometric trails.
+- **Gn Edge Turbulence**: Pro feedback with noise, vortex and edge color. Stable, optimized version.
 
 ---
 
-2026 Gnomalab. Hecho por un artista, para artistas.  
-**Licencia MIT** — Úsalo, modifícalo, compártelo. Si te ayuda en tu arte, considera invitarme a una birra 🍺
+## 👤 Credits
+
+- **Concept and artistic direction:** Gnomalab
+- **Technical bridge & thought partner:** Gemini AI
+- **Web:** [www.gnomalab.es](http://www.gnomalab.es/)
+- **Instagram:** [@gnomalab](https://www.instagram.com/gnomalab)
+- **YouTube:** [Gnomalab](https://www.youtube.com/@gnomalab)
+
+---
+
+2026 Gnomalab. Made by an artist, for artists.
+**MIT License**: use it, modify it, share it. If it helps your art, consider buying me a beer 🍺

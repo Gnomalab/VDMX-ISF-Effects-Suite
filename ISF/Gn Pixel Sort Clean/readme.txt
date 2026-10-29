@@ -1,4 +1,4 @@
-Gn PixelSort Clean
+Gn Pixel Sort Clean
 
 [EN] Description
 A refined, single-pass pixel sorting engine specifically engineered to maintain image integrity. Unlike traditional sorting algorithms that "leak" across the entire frame, Gn PixelSort Clean respects boundaries and uses a smart blending system to return to the original image.

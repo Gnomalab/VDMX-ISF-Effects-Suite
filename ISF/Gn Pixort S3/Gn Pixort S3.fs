@@ -4,7 +4,7 @@
         "Gnomalab"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Motor de pixel sorting vectorial avanzado con 8 modos de flujo (Radial, Espiral, Dipolo, etc.). Incluye control de polos magnéticos, detección de bordes Sobel para máscaras, aberración cromática y persistencia temporal.\"",
+    "DESCRIPTION": "Advanced vector pixel sorting engine with 8 flow modes (Radial, Spiral, Dipole, etc.). Includes magnetic pole control, Sobel edge detection for masking, chromatic aberration and temporal persistence.",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -12,16 +12,16 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Modo de Flujo",
+            "LABEL": "Flow mode",
             "LABELS": [
-                "Lineal",
-                "Radial (Polo A)",
-                "Espiral (Polo A)",
-                "Concentrico (Polo A)",
-                "Metafase-Atraccion",
-                "Metafase-Repeler",
-                "Dipolo-Atraccion",
-                "Dipolo-Repeler"
+                "Linear",
+                "Radial (Pole A)",
+                "Spiral (Pole A)",
+                "Concentric (Pole A)",
+                "Metaphase-Attract",
+                "Metaphase-Repel",
+                "Dipole-Attract",
+                "Dipole-Repel"
             ],
             "NAME": "flowMode",
             "TYPE": "long",
@@ -41,7 +41,7 @@
                 0.5,
                 0.5
             ],
-            "LABEL": "Polo A / Centro Flow",
+            "LABEL": "Pole A / flow center",
             "NAME": "poleA",
             "TYPE": "point2D"
         },
@@ -50,19 +50,19 @@
                 0.75,
                 0.5
             ],
-            "LABEL": "Polo B (Dipolo)",
+            "LABEL": "Pole B (dipole)",
             "NAME": "poleB",
             "TYPE": "point2D"
         },
         {
             "DEFAULT": false,
-            "LABEL": "Restringir Ejes (Constraint)",
+            "LABEL": "Constrain axes",
             "NAME": "constrainFlow",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 90,
-            "LABEL": "Angulo / Rotacion",
+            "LABEL": "Angle / Rotation",
             "MAX": 360,
             "MIN": 0,
             "NAME": "angle",
@@ -70,7 +70,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Velocidad Auto",
+            "LABEL": "Auto speed",
             "MAX": 2,
             "MIN": -2,
             "NAME": "flowSpeed",
@@ -78,23 +78,23 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invertir Direccion",
+            "LABEL": "Invert direction",
             "NAME": "invertFlow",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Umbral basado en:",
+            "LABEL": "Threshold based on:",
             "LABELS": [
-                "Luminancia",
-                "Matiz (Hue)",
-                "Saturacion",
-                "Ligereza",
-                "Bordes (Sobel)",
-                "Rojo",
-                "Verde",
-                "Azul",
-                "Alfa"
+                "Luminance",
+                "Hue",
+                "Saturation",
+                "Lightness",
+                "Edges (Sobel)",
+                "Red",
+                "Green",
+                "Blue",
+                "Alpha"
             ],
             "NAME": "thresholdMode",
             "TYPE": "long",
@@ -112,7 +112,7 @@
         },
         {
             "DEFAULT": 0.1,
-            "LABEL": "Umbral Min",
+            "LABEL": "Threshold min",
             "MAX": 1,
             "MIN": 0,
             "NAME": "thresholdMin",
@@ -120,7 +120,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Umbral Max",
+            "LABEL": "Threshold max",
             "MAX": 1,
             "MIN": 0,
             "NAME": "thresholdMax",
@@ -128,7 +128,7 @@
         },
         {
             "DEFAULT": 0.05,
-            "LABEL": "Suavizado Umbral",
+            "LABEL": "Threshold softness",
             "MAX": 0.5,
             "MIN": 0,
             "NAME": "thresholdSmooth",
@@ -136,23 +136,23 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invertir Mascara",
+            "LABEL": "Invert mask",
             "NAME": "invertMask",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Sesgo de Ordenacion (Sort Bias):",
+            "LABEL": "Sort bias:",
             "LABELS": [
-                "Ninguno",
-                "Suma RGB",
-                "Suma RGBA",
-                "Luminancia",
-                "Matiz",
-                "Saturacion",
-                "Ligereza",
-                "Crominancia I",
-                "Crominancia Q"
+                "None",
+                "RGB sum",
+                "RGBA sum",
+                "Luminance",
+                "Hue",
+                "Saturation",
+                "Lightness",
+                "Chrominance I",
+                "Chrominance Q"
             ],
             "NAME": "sortBiasMode",
             "TYPE": "long",
@@ -170,13 +170,13 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invertir Orden (Bias)",
+            "LABEL": "Invert order (bias)",
             "NAME": "reverseSort",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 15,
-            "LABEL": "Fuerza Desplazamiento",
+            "LABEL": "Displacement strength",
             "MAX": 80,
             "MIN": 0,
             "NAME": "pixelStrength",
@@ -184,7 +184,7 @@
         },
         {
             "DEFAULT": 0.95,
-            "LABEL": "Persistencia",
+            "LABEL": "Persistence",
             "MAX": 1,
             "MIN": 0,
             "NAME": "feedback",
@@ -192,7 +192,7 @@
         },
         {
             "DEFAULT": 2,
-            "LABEL": "Aberracion Cromatica",
+            "LABEL": "Chromatic aberration",
             "MAX": 20,
             "MIN": 0,
             "NAME": "chromaAbr",
@@ -200,7 +200,7 @@
         },
         {
             "DEFAULT": 0.1,
-            "LABEL": "Glow (Sutil)",
+            "LABEL": "Glow (subtle)",
             "MAX": 1,
             "MIN": 0,
             "NAME": "glow",
@@ -208,7 +208,7 @@
         },
         {
             "DEFAULT": 0.05,
-            "LABEL": "Dithering (Grano)",
+            "LABEL": "Dithering (grain)",
             "MAX": 0.3,
             "MIN": 0,
             "NAME": "ditherAmount",
@@ -216,7 +216,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Bias Rojo",
+            "LABEL": "Bias red",
             "MAX": 0.02,
             "MIN": -0.02,
             "NAME": "biasR",
@@ -224,7 +224,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Bias Verde",
+            "LABEL": "Bias green",
             "MAX": 0.02,
             "MIN": -0.02,
             "NAME": "biasG",
@@ -232,14 +232,14 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Bias Azul",
+            "LABEL": "Bias blue",
             "MAX": 0.02,
             "MIN": -0.02,
             "NAME": "biasB",
             "TYPE": "float"
         },
         {
-            "LABEL": "Limpiar Buffer",
+            "LABEL": "Clear buffer",
             "NAME": "clearBuffer",
             "TYPE": "event"
         }

@@ -6,27 +6,27 @@
         "Gnomalab"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Generador de repetición de píxeles basado en máscaras. Crea estelas geométricas rítmicas con control de dirección, espejo (ping-pong) y búsqueda por ray-casting de hasta 70 pasos.\"",
+    "DESCRIPTION": "Mask-based pixel repeat generator. Creates rhythmic geometric trails with direction control, mirroring (ping-pong) and ray-casting search of up to 70 steps.",
     "INPUTS": [
         {
-            "LABEL": "Source Image",
+            "LABEL": "Source image",
             "NAME": "inputImage",
             "TYPE": "image"
         },
         {
-            "LABEL": "Mask Layer",
+            "LABEL": "Mask layer",
             "NAME": "maskImage",
             "TYPE": "image"
         },
         {
             "DEFAULT": false,
-            "LABEL": "Usar Capa de Máscara",
+            "LABEL": "Use mask layer",
             "NAME": "useMaskLayer",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Matte Channel",
+            "LABEL": "Matte channel",
             "LABELS": [
                 "Luminance",
                 "Red",
@@ -56,7 +56,7 @@
         },
         {
             "DEFAULT": 0.1,
-            "LABEL": "Threshold Softness",
+            "LABEL": "Threshold softness",
             "MAX": 1,
             "MIN": 0,
             "NAME": "softness",
@@ -64,13 +64,13 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invert Threshold",
+            "LABEL": "Invert threshold",
             "NAME": "invertThreshold",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 90,
-            "LABEL": "Dirección",
+            "LABEL": "Direction",
             "MAX": 360,
             "MIN": 0,
             "NAME": "direction",
@@ -78,7 +78,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Streak Length",
+            "LABEL": "Streak length",
             "MAX": 1,
             "MIN": 0,
             "NAME": "streakLength",
@@ -86,7 +86,7 @@
         },
         {
             "DEFAULT": 0.15,
-            "LABEL": "Repeat Length",
+            "LABEL": "Repeat length",
             "MAX": 1,
             "MIN": 0.01,
             "NAME": "repeatLength",
@@ -102,31 +102,31 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Mirror (Ping-Pong)",
+            "LABEL": "Mirror (ping-pong)",
             "NAME": "mirror",
             "TYPE": "bool"
         },
         {
             "DEFAULT": false,
-            "LABEL": "Transparent (Matte Only)",
+            "LABEL": "Transparent (matte only)",
             "NAME": "transparent",
             "TYPE": "bool"
         },
         {
             "DEFAULT": true,
-            "LABEL": "Override When Brighter",
+            "LABEL": "Override when brighter",
             "NAME": "overrideBrighter",
             "TYPE": "bool"
         },
         {
             "DEFAULT": true,
-            "LABEL": "Include Shape Interior",
+            "LABEL": "Include shape interior",
             "NAME": "includeInterior",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Show Output",
+            "LABEL": "Show output",
             "LABELS": [
                 "Final Result",
                 "Effect Only",

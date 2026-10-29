@@ -12,13 +12,13 @@
             "TYPE": "image"
         },
         {
-            "LABEL": "Mapa de Flujo (R=X, G=Y)",
+            "LABEL": "Flow map (R=X, G=Y)",
             "NAME": "flowMapImage",
             "TYPE": "image"
         },
         {
             "DEFAULT": 40,
-            "LABEL": "Fuerza Master",
+            "LABEL": "Master strength",
             "MAX": 100,
             "MIN": 0,
             "NAME": "pixelStrength",
@@ -26,7 +26,7 @@
         },
         {
             "DEFAULT": 0.96,
-            "LABEL": "Persistencia",
+            "LABEL": "Persistence",
             "MAX": 1,
             "MIN": 0,
             "NAME": "feedback",
@@ -34,7 +34,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Fuerza de Muros (Bordes)",
+            "LABEL": "Wall strength (edges)",
             "MAX": 2,
             "MIN": 0,
             "NAME": "edgeDetection",
@@ -42,7 +42,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Umbral de Muro",
+            "LABEL": "Wall threshold",
             "MAX": 1,
             "MIN": 0,
             "NAME": "edgeThreshold",
@@ -50,16 +50,16 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Sesgo de Ordenación (Bias)",
+            "LABEL": "Sort bias",
             "LABELS": [
-                "Suma RGB",
-                "Luminancia",
-                "Matiz (Hue)",
-                "Saturación",
-                "Ligereza",
-                "Crominancia I",
-                "Crominancia Q",
-                "Alfa"
+                "RGB sum",
+                "Luminance",
+                "Hue",
+                "Saturation",
+                "Lightness",
+                "Chrominance I",
+                "Chrominance Q",
+                "Alpha"
             ],
             "NAME": "sortBiasMode",
             "TYPE": "long",
@@ -76,7 +76,7 @@
         },
         {
             "DEFAULT": 10,
-            "LABEL": "Chroma Shift",
+            "LABEL": "Chroma shift",
             "MAX": 40,
             "MIN": 0,
             "NAME": "chromaAbr",
@@ -84,14 +84,14 @@
         },
         {
             "DEFAULT": 0.8,
-            "LABEL": "Brillo Fringe",
+            "LABEL": "Fringe brightness",
             "MAX": 2,
             "MIN": 0,
             "NAME": "fringeAmount",
             "TYPE": "float"
         },
         {
-            "LABEL": "Reiniciar",
+            "LABEL": "Reset",
             "NAME": "clearBuffer",
             "TYPE": "event"
         }

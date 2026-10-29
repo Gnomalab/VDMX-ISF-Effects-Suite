@@ -5,7 +5,7 @@
         "Video Synth"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Sintetizador de barrido analógico inspirado en el Rutt-Etra. Transforma la imagen en una escultura topográfica 3D mediante deflexión por luminancia, con inestabilidad CRT, deriva de escaneo y aberración cromática.\"",
+    "DESCRIPTION": "Analog scan synthesizer inspired by the Rutt-Etra. Turns the image into a 3D topographic sculpture through luminance deflection, with CRT instability, scan drift and chromatic aberration.",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -13,7 +13,7 @@
         },
         {
             "DEFAULT": 100,
-            "LABEL": "Cantidad de Lineas",
+            "LABEL": "Number of lines",
             "MAX": 256,
             "MIN": 20,
             "NAME": "line_density",
@@ -21,7 +21,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Altura Relieve",
+            "LABEL": "Relief height",
             "MAX": 2.5,
             "MIN": 0,
             "NAME": "z_extrude",
@@ -29,7 +29,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Giro X (360)",
+            "LABEL": "Rotate X (360)",
             "MAX": 1,
             "MIN": -1,
             "NAME": "rot_x",
@@ -37,7 +37,7 @@
         },
         {
             "DEFAULT": 0.3,
-            "LABEL": "Giro Y (360)",
+            "LABEL": "Rotate Y (360)",
             "MAX": 1,
             "MIN": -1,
             "NAME": "rot_y",
@@ -53,7 +53,7 @@
         },
         {
             "DEFAULT": 0.05,
-            "LABEL": "Scan Drift (Roll)",
+            "LABEL": "Scan drift (roll)",
             "MAX": 1,
             "MIN": -1,
             "NAME": "scan_drift",
@@ -61,7 +61,7 @@
         },
         {
             "DEFAULT": 0.003,
-            "LABEL": "Aberracion CRT",
+            "LABEL": "CRT aberration",
             "MAX": 0.02,
             "MIN": 0,
             "NAME": "rgb_offset",
@@ -69,7 +69,7 @@
         },
         {
             "DEFAULT": 0.1,
-            "LABEL": "Scan-Jitter",
+            "LABEL": "Scan jitter",
             "MAX": 1,
             "MIN": 0,
             "NAME": "jitter",
@@ -77,7 +77,7 @@
         },
         {
             "DEFAULT": 0.8,
-            "LABEL": "Grosor Hilo",
+            "LABEL": "Thread thickness",
             "MAX": 2.5,
             "MIN": 0.1,
             "NAME": "thickness",
@@ -85,7 +85,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Audio Kick",
+            "LABEL": "Audio kick",
             "MAX": 1,
             "MIN": 0,
             "NAME": "audio_mod",
@@ -93,7 +93,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Saturacion",
+            "LABEL": "Saturation",
             "MAX": 1,
             "MIN": 0,
             "NAME": "saturation",
@@ -101,7 +101,7 @@
         },
         {
             "DEFAULT": 2,
-            "LABEL": "Ganancia Señal",
+            "LABEL": "Signal gain",
             "MAX": 4,
             "MIN": 0,
             "NAME": "brightness",
@@ -109,7 +109,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Persistencia",
+            "LABEL": "Persistence",
             "MAX": 0.95,
             "MIN": 0,
             "NAME": "feedback",

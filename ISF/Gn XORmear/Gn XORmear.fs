@@ -5,7 +5,7 @@
         "Gnomalab"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Procesador de estelas digitales con corrupción bitwise XOR. Permite aislar rangos de luminancia específicos y alternar entre texturas de barrido rugosas o sólidas mediante su ruteo de doble etapa.\"",
+    "DESCRIPTION": "Digital trail processor with bitwise XOR corruption. Isolates specific luminance ranges and switches between rough or solid scan textures through its two-stage routing.",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -13,7 +13,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Umbral MIN",
+            "LABEL": "Threshold MIN",
             "MAX": 1,
             "MIN": 0,
             "NAME": "threshold_min",
@@ -21,7 +21,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Umbral MAX",
+            "LABEL": "Threshold MAX",
             "MAX": 1,
             "MIN": 0,
             "NAME": "threshold_max",
@@ -29,7 +29,7 @@
         },
         {
             "DEFAULT": 0.1,
-            "LABEL": "Suavizado (Softness)",
+            "LABEL": "Softness",
             "MAX": 0.5,
             "MIN": 0,
             "NAME": "softness",
@@ -37,13 +37,13 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invertir Mascara",
+            "LABEL": "Invert mask",
             "NAME": "mask_invert",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 0,
-            "LABEL": "ORDEN",
+            "LABEL": "ORDER",
             "LABELS": [
                 "1: XOR > Smear",
                 "2: Smear > XOR"
@@ -65,7 +65,7 @@
         },
         {
             "DEFAULT": 0.4,
-            "LABEL": "Smear Length",
+            "LABEL": "Smear length",
             "MAX": 1,
             "MIN": 0,
             "NAME": "smear_len",
@@ -73,7 +73,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Smear Angle",
+            "LABEL": "Smear angle",
             "MAX": 1,
             "MIN": 0,
             "NAME": "smear_angle",

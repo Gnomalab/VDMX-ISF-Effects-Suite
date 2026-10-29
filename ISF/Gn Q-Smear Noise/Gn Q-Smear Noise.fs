@@ -4,7 +4,7 @@
         "Glitch"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "\"Smear caótico con ángulos cuantizados por brillo. Incluye ruido espacial/temporal y un motor de feedback inestable que genera texturas de glitch orgánico y estéticas similares al datamosh.\"",
+    "DESCRIPTION": "Chaotic smear with angles quantized by brightness. Includes spatial/temporal noise and an unstable feedback engine that generates organic glitch textures similar to datamosh aesthetics.",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -12,7 +12,7 @@
         },
         {
             "DEFAULT": 0.45,
-            "LABEL": "Brightness Threshold",
+            "LABEL": "Brightness threshold",
             "MAX": 1,
             "MIN": 0,
             "NAME": "brightThreshold",
@@ -20,7 +20,7 @@
         },
         {
             "DEFAULT": 18,
-            "LABEL": "Smear Velocity",
+            "LABEL": "Smear velocity",
             "MAX": 50,
             "MIN": -50,
             "NAME": "velocity",
@@ -28,7 +28,7 @@
         },
         {
             "DEFAULT": 0.4,
-            "LABEL": "Velocity Sustain",
+            "LABEL": "Velocity sustain",
             "MAX": 0.6,
             "MIN": 0,
             "NAME": "velocityDecay",
@@ -36,7 +36,7 @@
         },
         {
             "DEFAULT": 0.97,
-            "LABEL": "Colour Sustain",
+            "LABEL": "Color sustain",
             "MAX": 1,
             "MIN": 0,
             "NAME": "colourDecay",
@@ -44,7 +44,7 @@
         },
         {
             "DEFAULT": 24,
-            "LABEL": "Max Angular Steps",
+            "LABEL": "Max angular steps",
             "MAX": 64,
             "MIN": 1,
             "NAME": "maxAngleSteps",
@@ -68,7 +68,7 @@
         },
         {
             "DEFAULT": 0.4,
-            "LABEL": "Spatial Noise Amount",
+            "LABEL": "Spatial noise amount",
             "MAX": 2,
             "MIN": 0,
             "NAME": "spatialNoiseAmt",

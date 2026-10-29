@@ -4,7 +4,7 @@
         "Feedback"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "Feedback Pro con Noise, Vórtice y Edge Color. Versión estable y optimizada.",
+    "DESCRIPTION": "Pro feedback with noise, vortex and edge color. Stable, optimized version.",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -12,7 +12,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Blend Mode",
+            "LABEL": "Blend mode",
             "LABELS": [
                 "Mix",
                 "Screen",
@@ -32,7 +32,7 @@
         },
         {
             "DEFAULT": 1.2,
-            "LABEL": "Edge Strength",
+            "LABEL": "Edge strength",
             "MAX": 3,
             "MIN": 0,
             "NAME": "edgeStrength",
@@ -45,13 +45,13 @@
                 0.2,
                 1
             ],
-            "LABEL": "Edge Color",
+            "LABEL": "Edge color",
             "NAME": "edgeColor",
             "TYPE": "color"
         },
         {
             "DEFAULT": 0.02,
-            "LABEL": "Noise Turbulence",
+            "LABEL": "Noise turbulence",
             "MAX": 0.1,
             "MIN": 0,
             "NAME": "noiseStrength",
@@ -59,7 +59,7 @@
         },
         {
             "DEFAULT": 8,
-            "LABEL": "Noise Scale",
+            "LABEL": "Noise scale",
             "MAX": 20,
             "MIN": 1,
             "NAME": "noiseScale",
@@ -67,7 +67,7 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invert Threshold (Shadows)",
+            "LABEL": "Invert threshold (shadows)",
             "NAME": "invertThreshold",
             "TYPE": "bool"
         },
@@ -81,7 +81,7 @@
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Source Gain",
+            "LABEL": "Source gain",
             "MAX": 1,
             "MIN": 0,
             "NAME": "sourceGain",
@@ -105,7 +105,7 @@
         },
         {
             "DEFAULT": 0.02,
-            "LABEL": "RGB Split Speed",
+            "LABEL": "RGB split speed",
             "MAX": 0.1,
             "MIN": 0,
             "NAME": "rgbSplit",
@@ -113,7 +113,7 @@
         },
         {
             "DEFAULT": 5,
-            "LABEL": "Blur Feedback",
+            "LABEL": "Blur feedback",
             "MAX": 10,
             "MIN": 0,
             "NAME": "blurFeedback",
@@ -137,7 +137,7 @@
         },
         {
             "DEFAULT": 0.9,
-            "LABEL": "Dry / Wet Mix",
+            "LABEL": "Dry / Wet mix",
             "MAX": 1,
             "MIN": 0,
             "NAME": "dryWet",
@@ -151,8 +151,7 @@
             "PERSISTENT": true,
             "TARGET": "fbBuffer"
         },
-        {
-        }
+        {}
     ],
     "VSN": "1.0.0"
 }

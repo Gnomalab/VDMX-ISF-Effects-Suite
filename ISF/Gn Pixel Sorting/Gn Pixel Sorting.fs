@@ -4,7 +4,7 @@
         "Glitch"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "Pixel sorter persistente con modulación rítmica de velocidad. Incluye controles de cadencia (pulse), desvanecimiento de color (desaturación/oscurecimiento) y selección por rangos de luminancia.\"",
+    "DESCRIPTION": "Persistent pixel sorter with rhythmic speed modulation. Includes cadence (pulse) controls, color fade (desaturation / darkening) and luminance-range selection.",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -12,19 +12,19 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Modo Horizontal",
+            "LABEL": "Horizontal mode",
             "NAME": "horizontalMode",
             "TYPE": "bool"
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invertir Dirección",
+            "LABEL": "Invert direction",
             "NAME": "invertDirection",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 0.25,
-            "LABEL": "Umbral Mínimo",
+            "LABEL": "Threshold min",
             "MAX": 1,
             "MIN": 0,
             "NAME": "thresholdMin",
@@ -32,7 +32,7 @@
         },
         {
             "DEFAULT": 0.8,
-            "LABEL": "Umbral Máximo",
+            "LABEL": "Threshold max",
             "MAX": 1,
             "MIN": 0,
             "NAME": "thresholdMax",
@@ -40,13 +40,13 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invertir Selección FX",
+            "LABEL": "Invert FX selection",
             "NAME": "invertSelection",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 0.005,
-            "LABEL": "Velocidad Base",
+            "LABEL": "Base speed",
             "MAX": 0.05,
             "MIN": 0,
             "NAME": "meltSpeed",
@@ -54,7 +54,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Ritmo Cadencia",
+            "LABEL": "Cadence rhythm",
             "MAX": 10,
             "MIN": 0,
             "NAME": "cadenceRate",
@@ -62,7 +62,7 @@
         },
         {
             "DEFAULT": 0.01,
-            "LABEL": "Desvanecer (Fade)",
+            "LABEL": "Fade",
             "MAX": 0.2,
             "MIN": 0,
             "NAME": "colorFade",
@@ -70,7 +70,7 @@
         },
         {
             "DEFAULT": 0.98,
-            "LABEL": "Persistencia (Feedback)",
+            "LABEL": "Persistence (feedback)",
             "MAX": 1,
             "MIN": 0,
             "NAME": "feedback",

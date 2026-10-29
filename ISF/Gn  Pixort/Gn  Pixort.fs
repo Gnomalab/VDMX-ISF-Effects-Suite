@@ -4,7 +4,7 @@
         "Gnomalab"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "Advanced Pixel Sorting for VDMX6",
+    "DESCRIPTION": "Advanced pixel sorting for VDMX6",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -14,8 +14,8 @@
             "DEFAULT": 0,
             "LABELS": [
                 "Luma",
-                "Saturación",
-                "Brillo"
+                "Saturation",
+                "Brightness"
             ],
             "NAME": "mode",
             "TYPE": "long",
@@ -33,7 +33,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Umbral",
+            "LABEL": "Threshold",
             "MAX": 1,
             "MIN": 0,
             "NAME": "threshold",
@@ -41,13 +41,13 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invertir Selección",
+            "LABEL": "Invert selection",
             "NAME": "invertThreshold",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 0.2,
-            "LABEL": "Largo de Estela",
+            "LABEL": "Trail length",
             "MAX": 0.8,
             "MIN": 0,
             "NAME": "length",
@@ -55,7 +55,7 @@
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Mezcla",
+            "LABEL": "Mix",
             "MAX": 1,
             "MIN": 0,
             "NAME": "mixAmount",

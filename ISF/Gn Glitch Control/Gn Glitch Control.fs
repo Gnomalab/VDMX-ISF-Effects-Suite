@@ -4,7 +4,7 @@
         "Distortion"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "Glitch Control - Switchable Processing Order",
+    "DESCRIPTION": "Glitch Control - switchable processing order",
     "INPUTS": [
         {
             "NAME": "inputImage",
@@ -45,7 +45,7 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Enable Displacement",
+            "LABEL": "Enable displacement",
             "NAME": "enable_disp",
             "TYPE": "bool"
         },
@@ -65,16 +65,16 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Mask Source",
+            "LABEL": "Mask source",
             "LABELS": [
-                "Suma RGB",
-                "Luminancia",
-                "Matiz",
-                "Saturacion",
-                "Ligereza",
-                "Crom. I",
-                "Crom. Q",
-                "Alfa"
+                "RGB sum",
+                "Luminance",
+                "Hue",
+                "Saturation",
+                "Lightness",
+                "Chrom. I",
+                "Chrom. Q",
+                "Alpha"
             ],
             "NAME": "disp_mask_mode",
             "TYPE": "long",
@@ -91,7 +91,7 @@
         },
         {
             "DEFAULT": 0.5,
-            "LABEL": "Disp. Threshold",
+            "LABEL": "Disp. threshold",
             "MAX": 1,
             "MIN": 0,
             "NAME": "disp_threshold",
@@ -99,7 +99,7 @@
         },
         {
             "DEFAULT": 0.1,
-            "LABEL": "Disp. Softness",
+            "LABEL": "Disp. softness",
             "MAX": 0.5,
             "MIN": 0,
             "NAME": "disp_softness",
@@ -107,13 +107,13 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invert Mask",
+            "LABEL": "Invert mask",
             "NAME": "disp_mask_invert",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 5,
-            "LABEL": "Number of Copies",
+            "LABEL": "Number of copies",
             "MAX": 20,
             "MIN": 1,
             "NAME": "disp_copies",
@@ -121,7 +121,7 @@
         },
         {
             "DEFAULT": 15,
-            "LABEL": "Displace Offset",
+            "LABEL": "Displace offset",
             "MAX": 100,
             "MIN": 0,
             "NAME": "disp_offset",
@@ -129,7 +129,7 @@
         },
         {
             "DEFAULT": 0,
-            "LABEL": "Displace Angle",
+            "LABEL": "Displace angle",
             "MAX": 1,
             "MIN": 0,
             "NAME": "disp_angle",
@@ -137,7 +137,7 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Enable Stretch",
+            "LABEL": "Enable stretch",
             "NAME": "enable_stretch",
             "TYPE": "bool"
         },
@@ -157,7 +157,7 @@
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invert Stretch",
+            "LABEL": "Invert stretch",
             "NAME": "str_invert",
             "TYPE": "bool"
         },
@@ -166,13 +166,13 @@
                 0.5,
                 0.5
             ],
-            "LABEL": "Stretch Position",
+            "LABEL": "Stretch position",
             "NAME": "str_pos",
             "TYPE": "point2D"
         },
         {
             "DEFAULT": false,
-            "LABEL": "Enable Color Cycle",
+            "LABEL": "Enable color cycle",
             "NAME": "enable_cycle",
             "TYPE": "bool"
         },

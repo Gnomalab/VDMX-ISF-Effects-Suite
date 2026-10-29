@@ -1,4 +1,4 @@
-Gn Bright Smear Noise
+Gn Q-Smear Noise
 
 [EN] Description
 A chaotic displacement engine that creates unpredictable smears and digital decay. By quantizing displacement angles based on pixel brightness and injecting high-frequency noise, this shader produces an "unstable" visual style that sits between organic fluid simulation and hardware corruption.

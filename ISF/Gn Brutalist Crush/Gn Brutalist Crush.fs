@@ -5,22 +5,22 @@
         "Destruction"
     ],
     "CREDIT": "Gnomalab",
-    "DESCRIPTION": "XOR BitCrush + Pixel Sorting Chained V13 - Con selector de orden",
+    "DESCRIPTION": "XOR BitCrush + Pixel Sorting chained, V13 - with order selector",
     "INPUTS": [
         {
-            "LABEL": "Source Image",
+            "LABEL": "Source image",
             "NAME": "inputImage",
             "TYPE": "image"
         },
         {
             "DEFAULT": false,
-            "LABEL": "Invertir Orden (Sort -> XOR)",
+            "LABEL": "Invert order (Sort -> XOR)",
             "NAME": "swapOrder",
             "TYPE": "bool"
         },
         {
             "DEFAULT": 1,
-            "LABEL": "Intensidad Global",
+            "LABEL": "Global intensity",
             "MAX": 1,
             "MIN": 0,
             "NAME": "masterIntensity",
@@ -52,7 +52,7 @@
         },
         {
             "DEFAULT": 128,
-            "LABEL": "XOR Rojo",
+            "LABEL": "XOR red",
             "MAX": 255,
             "MIN": 0,
             "NAME": "xorRed",
@@ -60,7 +60,7 @@
         },
         {
             "DEFAULT": 64,
-            "LABEL": "XOR Verde",
+            "LABEL": "XOR green",
             "MAX": 255,
             "MIN": 0,
             "NAME": "xorGreen",
@@ -68,7 +68,7 @@
         },
         {
             "DEFAULT": 32,
-            "LABEL": "XOR Azul",
+            "LABEL": "XOR blue",
             "MAX": 255,
             "MIN": 0,
             "NAME": "xorBlue",
@@ -76,7 +76,7 @@
         },
         {
             "DEFAULT": 90,
-            "LABEL": "Angulo Sort",
+            "LABEL": "Sort angle",
             "MAX": 360,
             "MIN": 0,
             "NAME": "angle",
@@ -84,7 +84,7 @@
         },
         {
             "DEFAULT": 0.3,
-            "LABEL": "Sort Hue Min",
+            "LABEL": "Sort hue min",
             "MAX": 1,
             "MIN": 0,
             "NAME": "sortThresholdMin",
@@ -92,7 +92,7 @@
         },
         {
             "DEFAULT": 0.8,
-            "LABEL": "Sort Hue Max",
+            "LABEL": "Sort hue max",
             "MAX": 1,
             "MIN": 0,
             "NAME": "sortThresholdMax",
@@ -100,7 +100,7 @@
         },
         {
             "DEFAULT": 46.8,
-            "LABEL": "Sort Strength",
+            "LABEL": "Sort strength",
             "MAX": 100,
             "MIN": 0,
             "NAME": "pixelStrength",
@@ -108,7 +108,7 @@
         },
         {
             "DEFAULT": 0.95,
-            "LABEL": "Sort Persistence",
+            "LABEL": "Sort persistence",
             "MAX": 1,
             "MIN": 0,
             "NAME": "feedback",
@@ -116,7 +116,7 @@
         },
         {
             "DEFAULT": 1.53,
-            "LABEL": "Sort Chroma Abr.",
+            "LABEL": "Sort chroma aberr.",
             "MAX": 10,
             "MIN": 0,
             "NAME": "chromaAbr",
@@ -124,7 +124,7 @@
         },
         {
             "DEFAULT": 0.17,
-            "LABEL": "Sort Glow",
+            "LABEL": "Sort glow",
             "MAX": 1,
             "MIN": 0,
             "NAME": "glow",
@@ -139,7 +139,7 @@
             "TYPE": "float"
         },
         {
-            "LABEL": "Limpiar Buffer",
+            "LABEL": "Clear buffer",
             "NAME": "clearBuffer",
             "TYPE": "event"
         }
